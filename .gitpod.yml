@@ -3,7 +3,7 @@ vscode:
   extensions:
     - 42Crunch.vscode-openapi
     
-    tasks:
+tasks:
   - name: AWS CLI
     init: |
       cd /workspace
