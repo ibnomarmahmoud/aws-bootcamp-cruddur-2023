@@ -39,11 +39,14 @@ AWS CLI v2 was installed earlier on my windows laptop and it was reconfigured to
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ###  Create a Budget and Billing Alarm
 
-I have added 25$ Credit acquired from attending an AWSomeDay earlier accordingly I created a budget to notify me of any actual money spending (Zero Spending Limit) , Another budget would be added in a later stage to track specfic service usage from Credits 
+I have added 25$ Credit acquired from attending an AWSomeDay earlier accordingly I created a budget to track my spendings with a budget of 25 USD per monty and two alerts towards my personal email one at 50% and another at 80% , Another budget would be added in a later stage to track specfic service usage 
 
-![Zero Spending](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Zero_Budget.png)
-![Billing Alert](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Billing_Alert.png)
+![Monthly spending](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Budget_Again.JPG)
+![Billing including Credits](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Billing_Credits.png)
+![Alert1](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Billing_Alert1.png)
+![Alert2](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Billing_Alert2.png)
 
-Additionally "AWS Console" application was installed so that I can check the active services from my mobile in case I missed any running unintentionally 
+**Free Tier Usage** : By default, AWS Budgets automatically notifies you over email when you exceed 85 percent of the Free Tier limit for each service
+ 
 
 
