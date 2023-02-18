@@ -47,5 +47,10 @@ I have added 25$ Credit acquired from attending an AWSomeDay earlier accordingly
 
 **Free Tier Usage** : By default, AWS Budgets automatically notifies you over email when you exceed 85 percent of the Free Tier limit for each service
  
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+###  Lucid Chart
 
+The application design was built as per the instructions and below is a screenshot of my own Lucid document which can be accessed via the below [link](https://lucid.app/lucidchart/5d7933c5-65b9-4675-86bf-6bcb821fa8ce/edit?viewport_loc=1348%2C-41%2C1575%2C784%2C0_0&invitationId=inv_7d168d1b-4c31-48e6-8231-098e19ee221c)
+
+![Lucid Chart](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Arch_Chart.JPG)
 
