@@ -32,4 +32,4 @@ After following the instructions in the Live Stream and updating the compose yam
 
 As pwe Ashish's Security video , Snyk integration was done to see the vulenrabilities in the container related Dockerfiles
 
-![Snyk](/workspace/aws-bootcamp-cruddur-2023/journal/assets/Snyk.png)
+![Snyk](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Snyk.png)
