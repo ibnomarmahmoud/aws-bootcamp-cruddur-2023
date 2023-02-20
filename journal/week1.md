@@ -19,7 +19,7 @@ I have Creating an SSH key for VS Code to connect to Codespace and granted permi
 
 #### Verify the spending Limits
 
-Verified the current spendings on AWS and Gitpod Free-Tiers
+I have verified the current spendings on Gitpod Free-Tier before working on Week1
 
 ![Spending Limits](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Gitpod%20Free%20Tier%20Usage%20Check.JPG)
 
