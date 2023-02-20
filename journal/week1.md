@@ -30,6 +30,6 @@ After following the instructions in the Live Stream and updating the compose yam
 
 ![Running Containers](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Containers_running_Up.png)
 
-As pwe Ashish's Security video , Snyk integration was done to see the vulenrabilities in the container related Dockerfiles
+As per Ashish's Security video , Snyk integration was done to see the vulenrabilities in the container related Dockerfiles
 
 ![Snyk](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Snyk.png)
