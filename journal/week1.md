@@ -33,3 +33,16 @@ After following the instructions in the Live Stream and updating the compose yam
 As per Ashish's Security video , Snyk integration was done to see the vulenrabilities in the container related Dockerfiles
 
 ![Snyk](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Snyk.png)
+
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Interacting with PostgreSQL and DynamoDB containers 
+
+Once containers were started post composing the yaml file , I tried to connect to psql and DynamoDB as shwon below 
+
+#### DynamoDB
+![DynamoDB](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/DynamoDB.JPG)
+
+#### PostgreSQL
+![PSQL1](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Postgres1.JPG)
+![PSQL2](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Postgres2.JPG)
