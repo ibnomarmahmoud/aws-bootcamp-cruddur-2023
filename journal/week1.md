@@ -55,3 +55,12 @@ The instructions were followed and Notifications endpoint was added as shown bel
 
 ![Backend Notifictaions](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Backend%20Notification.png)
 ![Frontend Notifictaions](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Frontend%20Notification.png)
+
+
+## Homework Challenges
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Run Docker on EC2 Instance 
+
+I have followed the below [link](https://www.cyberciti.biz/faq/how-to-install-docker-on-amazon-linux-2/) to install Docker on Amazon Linux 2 EC2 instnace and pulled couple of images and started Fedora container 
+
+![Docker on EC2 Instance](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Run_Docker_EC2.png)
