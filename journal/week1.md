@@ -46,3 +46,12 @@ Once containers were started post composing the yaml file , I tried to connect t
 #### PostgreSQL
 ![PSQL1](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Postgres1.JPG)
 ![PSQL2](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Postgres2.JPG)
+
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Update the Frontend and backend to add the notifications 
+
+The instructions were followed and Notifications endpoint was added as shown below 
+
+![Backend Notifictaions](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Backend%20Notification.png)
+![Frontend Notifictaions](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Frontend%20Notification.png)
