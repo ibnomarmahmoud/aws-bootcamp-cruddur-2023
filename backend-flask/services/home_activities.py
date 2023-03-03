@@ -2,8 +2,13 @@ from datetime import datetime, timedelta, timezone
 from opentelemetry import trace
 tracer = trace.get_tracer("new_trace")
 
+import watchtower
+import logging
+from time import strftime
+
 class HomeActivities:
-  def run():
+  def run(LOGGER):
+    LOGGER.info('Hello Cloudwatch! from  /api/activities/home')
     with tracer.start_as_current_span("Home-Activities-span"):
       span = trace.get_current_span()
       span.set_attribute("app.endpoint", "Home_Activities")
