@@ -1,7 +1,13 @@
 from datetime import datetime, timedelta, timezone
+from opentelemetry import trace
+tracer = trace.get_tracer("new_trace")
+
 class NotificationsActivities:
   def run():
     now = datetime.now(timezone.utc).astimezone()
+    with tracer.start_as_current_span("Home-Notifications"):
+      span = trace.get_current_span()
+      span.set_attribute("app.endpoint", "Notifications")
     results = [{
       'uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
       'handle':  'coco',
