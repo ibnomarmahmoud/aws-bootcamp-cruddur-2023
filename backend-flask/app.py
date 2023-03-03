@@ -29,6 +29,10 @@ import watchtower
 import logging
 from time import strftime
 
+## X-Ray
+from aws_xray_sdk.core import xray_recorder
+from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
+
 
 # Initialize tracing and an exporter that can send data to Honeycomb
 provider = TracerProvider()
@@ -52,6 +56,12 @@ console_handler = logging.StreamHandler()
 cw_handler = watchtower.CloudWatchLogHandler(log_group='cruddur')
 LOGGER.addHandler(console_handler)
 LOGGER.addHandler(cw_handler)
+
+## X-ray
+
+xray_url = os.getenv("AWS_XRAY_URL")
+xray_recorder.configure(service='Backend', dynamic_naming=xray_url)
+XRayMiddleware(app, xray_recorder)
 
 frontend = os.getenv('FRONTEND_URL')
 backend = os.getenv('BACKEND_URL')
