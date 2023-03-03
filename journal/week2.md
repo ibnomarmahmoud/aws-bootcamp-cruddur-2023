@@ -41,6 +41,16 @@ The video instructions were followed and a logger info was added in home activit
 
 <img width="814" alt="image" src="https://user-images.githubusercontent.com/125532497/222781565-b9d56723-9f7f-48f8-a068-e5a37d18b550.png">
 
+### X-Ray
+
+The video instructions were followed and the X-ray daemon container was started and sent the events to the X-ray in us-west-2 region as shown below
+
+<img width="707" alt="image" src="https://user-images.githubusercontent.com/125532497/222801207-43c70e8c-7a97-48eb-b322-9aeea06bab03.png">
+
+<img width="912" alt="image" src="https://user-images.githubusercontent.com/125532497/222800870-bf17243d-c05a-42be-9f18-9044168bb8bc.png">
+
+Still I need to add segments and sub-segments but I found the honeycomb more easy to use
+
 
 
 
