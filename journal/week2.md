@@ -13,7 +13,7 @@ Initially nothing was sent to the project and after connecting to the shell of c
 
 But later post restarting my Gitpod workspace and composing up the frontend and backend images , issue got resolved 
 
-I added multiple spans for home activities endpoint , another for Notifications endpoint and added some attributes as indicated in each endpoint .py files
+I added multiple spans for home activities endpoint , another for Notifications endpoint and added some attributes as indicated in each endpoint .py files , also I tried adding another inner span for home activities endpoint accordingly we can see 3 spans as shown in the below snapshot
 
 ![Custom Span](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/CustomSpan.png)
 
