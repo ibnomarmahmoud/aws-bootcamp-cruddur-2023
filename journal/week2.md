@@ -5,14 +5,16 @@
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### HoneyComb
 
-HoneyComb Account was set in Week0 , I just copied its API Key and set it in Gitpod variables , updated the compose file as per the Live stream instructions and data were sent successfully to my project
+HoneyComb Account was set in Week0 , I just copied its API Key and set it in Gitpod variables , updated the compose file as per the Live stream instructions and data was sent successfully to my project
 
-Initially nothing was sent to the project and after connecting to the shell of container of the backend , enviornmnetal vraiables were found to be not set as per the configuration in the compose file
+Initially nothing was sent to the project and after connecting to the shell of container of the backend , environmental variables were found to be not set as per the configuration in the compose file
 
 ![Missing Variables](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Missing_Env_variables.JPG)
 
 But later post restarting my Gitpod workspace and composing up the frontend and backend images , issue got resolved 
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### HoneyComb Challenge
 I added multiple spans for home activities endpoint , another for Notifications endpoint , also I tried adding another inner span for home activities endpoint accordingly we can see 3 spans as shown in the below snapshot
 
 ![Custom Span](https://github.com/ibnomarmahmoud/aws-bootcamp-cruddur-2023/blob/main/journal/assets/CustomSpan.png)
@@ -50,6 +52,15 @@ The video instructions were followed and the X-ray daemon container was started 
 <img width="912" alt="image" src="https://user-images.githubusercontent.com/125532497/222800870-bf17243d-c05a-42be-9f18-9044168bb8bc.png">
 
 Still I need to add segments and sub-segments but I found the honeycomb more easy to use
+
+### Rollbar
+
+The video instructions were followed and Token key was set in Gitpod variables , updated the compose file and data was sent to the created project , same problem of having variables not reflected in the containers was faced like honeycomb 
+
+Items were checked under Cruddle project 
+
+![image](https://user-images.githubusercontent.com/125532497/222881498-f3589d91-6c5a-4b55-a9a8-620f9d770403.png)
+
 
 
 
