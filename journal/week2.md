@@ -43,6 +43,7 @@ The video instructions were followed and a logger info was added in home activit
 
 <img width="814" alt="image" src="https://user-images.githubusercontent.com/125532497/222781565-b9d56723-9f7f-48f8-a068-e5a37d18b550.png">
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### X-Ray
 
 The video instructions were followed and the X-ray daemon container was started and sent the events to the X-ray in us-west-2 region as shown below
@@ -53,6 +54,7 @@ The video instructions were followed and the X-ray daemon container was started 
 
 Still I need to add segments and sub-segments but I found the honeycomb more easy to use
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Rollbar
 
 The video instructions were followed and Token key was set in Gitpod variables , updated the compose file and data was sent to the created project , same problem of having variables not reflected in the containers was faced like honeycomb 
@@ -61,7 +63,14 @@ Items were checked under Cruddle project
 
 ![image](https://user-images.githubusercontent.com/125532497/222881498-f3589d91-6c5a-4b55-a9a8-620f9d770403.png)
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+## Instrumenting the frontend using honeyComb Challenge
 
+I tried to follow the steps desribed in the below guides , updated the modules in packages.jspn file and updated tracing.js file in index.js but still didn't manage to finish it , will be attempted again in next week
 
+[Measuring Reach Performance using HoneyComb](https://blog.devgenius.io/measuring-react-performance-with-opentelemetry-and-honeycomb-2b20a7920335)
 
+[HoneyComb Docs](https://docs.honeycomb.io/getting-data-in/opentelemetry/node-distro/)
+
+<img width="379" alt="image" src="https://user-images.githubusercontent.com/125532497/222895526-130e46a6-9cfe-430b-b73f-c99b5842031b.png">
 
