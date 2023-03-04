@@ -14,7 +14,28 @@ import {
   createBrowserRouter,
   RouterProvider
 } from "react-router-dom";
-
+/*
+// HoneyComb
+const provider = new WebTracerProvider(...);
+provider.register({
+  contextManager: new ZoneContextManager()
+});
+const fetchInstrumentation = new FetchInstrumentation({});
+fetchInstrumentation.setTracerProvider(provider);
+// Registering instrumentations
+registerInstrumentations({
+  instrumentations: [
+    fetchInstrumentation,
+  ],
+});
+export default function TraceProvider({ children }) {
+  return (
+    <>
+      {children}
+    </>
+  );
+}
+*/
 const router = createBrowserRouter([
   {
     path: "/",

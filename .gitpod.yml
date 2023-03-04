@@ -22,6 +22,7 @@ tasks:
   - name: NPM install
     init: |
       cd /workspace/aws-bootcamp-cruddur-2023/frontend-react-js
-      npm i
+      npm install --save @opentelemetry/api @opentelemetry/sdk-trace-web @opentelemetry/exporter-trace-otlp-http @opentelemetry/context-zone
+
       
       
