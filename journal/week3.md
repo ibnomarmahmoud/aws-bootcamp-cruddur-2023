@@ -10,12 +10,12 @@ The User pool was created from AWS console as per the Live stream instructions a
 <img width="287" alt="Cruddle" src="https://user-images.githubusercontent.com/125532497/224495979-e5908c6a-ec35-4e5e-8d80-f631114672fd.png">
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-### Implementcustom Signup / Confirmation / Recovery Pages   
-Multiple Users were created via the new custom signup page and confirmed their email 
+### Implement custom Signup / Confirmation / Recovery Pages   
+Multiple Users were created via the new custom signup page and confirmed their emails 
 
 <img width="580" alt="List of Users" src="https://user-images.githubusercontent.com/125532497/224496023-3998208e-9428-4f17-be50-7268176c93b8.png">
 
-The same was checked/verified  via AWS CloudTrail 
+The same was checked/verified  via AWS CloudTrail as witnessed afterwards from Ashish's video 
 
 ![cognito](https://user-images.githubusercontent.com/125532497/224496128-136393c4-8e8b-47b2-80e9-1377e75b2aa4.png)
 
@@ -27,7 +27,7 @@ Upon Signing-out , one user requested recovering the password and the verificati
 
 ### JWT Different approaches  
 
-The related video was watched but it was not properly digested so I prefered to read more about such topic from external resources and enhance my coding experience specially for Flask and re-do the backend implementation for Cognito part once more instead of copying the backend modified py files 
+The related video was watched but it was not properly digested so I prefered to read more about such topic from external resources and enhance my coding experience specially for Flask and re-do the backend implementation for Cognito part once more instead of copying the backend modified .py files specially this is not dependant on the next steps
 
 ## Homework Challenges  
 
