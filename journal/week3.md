@@ -3,7 +3,7 @@
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Cognito User Pool Creation 
-The User pool was craetred from AWS console as per the Live stream instructions and the user pool ID , Client ID under App integartion were updated in the application code so that the authetication is done via AWS Cognito 
+The User pool was created from AWS console as per the Live stream instructions and the user pool ID , Client ID under App integartion were updated in the application code so that the authetication is done via AWS Cognito 
 
 <img width="914" alt="cognito1" src="https://user-images.githubusercontent.com/125532497/224495961-7cc58c0e-5ff3-49bc-b726-ea3ccffee4d4.png">
 
