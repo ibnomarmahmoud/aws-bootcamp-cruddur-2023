@@ -48,3 +48,16 @@ Some formating was done as shown below for
 
 ![image](https://user-images.githubusercontent.com/125532497/224533340-add2fef7-ab32-4b91-9168-e1643dab59e9.png)
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### RDS SG Update Script  
+
+DB_SG_ID and DB_SG_RULE_ID variables were set in Gitpod variables according to what is being configured in the EC2 SG of our RDS DB and yaml file is updated accordingly to run the SG setting script once workspace is restarted 
+
+![image](https://user-images.githubusercontent.com/125532497/224538269-60cbc208-cf0a-450d-a0bb-121f29949a18.png)
+
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/125532497/224538366-5a8ddaf9-e76c-44a5-a79f-6268301de493.png">
+
+
+
+
+
