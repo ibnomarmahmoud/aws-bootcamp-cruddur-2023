@@ -76,5 +76,9 @@ DB_SG_ID and DB_SG_RULE_ID variables were set in Gitpod variables according to w
 <img width="279" alt="image" src="https://user-images.githubusercontent.com/125532497/225327597-bd7a0b26-4de4-44c7-b8f9-2c1f944402f7.png">
 
 
+![image](https://user-images.githubusercontent.com/125532497/225997973-b72fe765-cadb-45eb-bdca-20c9a34c2bed.png)
+
+![image](https://user-images.githubusercontent.com/125532497/225998180-f581617a-e1ce-4a35-a8c2-94afdd9e0937.png)
+
 
 
