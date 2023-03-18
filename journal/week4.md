@@ -71,7 +71,7 @@ Once manually setting the hostname to db which is similar to the Postgres contai
 
 ![image](https://user-images.githubusercontent.com/125532497/225243461-441e058c-d8fb-4e67-b136-041c1368e004.png)
 
-The retreival of the activity from backend was verified from the backend initially 
+The retreival of the activity from backend was verified 
 
 ![image](https://user-images.githubusercontent.com/125532497/225256234-1537e653-ddab-4561-b829-bf19b416a7d1.png)
 
