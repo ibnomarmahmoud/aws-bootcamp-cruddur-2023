@@ -106,6 +106,10 @@ For that I used a temp email site to avoid loading my personal email with verifi
 
 <img width="758" alt="image" src="https://user-images.githubusercontent.com/125532497/226087590-6369c45a-ba1c-4510-a31a-e8fd3ea97519.png">
 
+Cloudwatch logs were of great importance 
+
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/125532497/226088102-cd070135-e3b0-44e8-949d-b061173da7d9.png">
+
 
 Also I kept using the below AWS command to delete the user from Cognito User pool to avoid switching between tabs and giving some confirmations 
 
