@@ -75,7 +75,7 @@ On_IPurple='\033[0;105m'  # Purple
 On_ICyan='\033[0;106m'    # Cyan
 On_IWhite='\033[0;107m'   # White
 
-query_path="$(realpath ..)/db/Query_Tables.sql"
+query_path="/workspace/aws-bootcamp-cruddur-2023/backend-flask/db/Query_Tables.sql"
 
 echo $seed_path
 
