@@ -45,4 +45,29 @@ Update Cognito User ID script as implemented successfully but I had to modify so
 ![image](https://user-images.githubusercontent.com/125532497/227703592-f73563ed-1561-4439-882b-32151b6064e5.png)
 
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Implement (Pattern A/B) Listing Messages in Message Group into Application
+
+The modifications in the backend and frontend were performed as instructed , backend was found to be trying to connect to production RDS so modified the docker compose file and started it again 
+
+No further errors were reported in the logs of backend however no message groups were reflected on the frontend 
+
+![image](https://user-images.githubusercontent.com/125532497/227707121-8057d2f1-d270-4c6d-83b9-a5394a88a664.png)
+
+![image](https://user-images.githubusercontent.com/125532497/227707133-e141577c-0705-4fc3-8585-6ae685767ce9.png)
+
+So I believe that is related to the ddb seed part where the message should have my user instead of Andrew while messages.py is trying to fetch the ser id from the below
+
+```
+sql = db.template('users','uuid_from_cognito_user_id')
+    my_user_uuid = db.query_value(sql,{
+      'cognito_user_id': cognito_user_id
+    })
+```
+
+SO I updated the conversation to be between Mahmoud and Hema
+
+![image](https://user-images.githubusercontent.com/125532497/227707561-6ee85ebc-37a3-47ec-b099-6d708644943d.png)
+
+
 
