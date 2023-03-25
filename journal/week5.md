@@ -27,3 +27,22 @@ List and Get Conversation scripts were added , RDS scripts were moved under db f
 Codewishper was attempted to see its capabilities and whether it can replace ChatGPT or not ;) 
 
 ![image](https://user-images.githubusercontent.com/125532497/227640077-7485df09-0884-40ff-bd41-bea4de3b6746.png)
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Implement Update Cognito ID Script for Postgres Database
+
+Update Cognito User ID script as implemented successfully but I had to modify some scripts related to RDS previous week as I had to modify the path after collecting them all under db folder , also I had modified the seed data to the users already existing in my Cognito User Pool so instead of Andrew / Beko , I have inserted Mahmoud / Hema as shown below from the update cognito User ID Output 
+
+**Before**
+
+<img width="539" alt="image" src="https://user-images.githubusercontent.com/125532497/227703526-6d67376f-a79c-4235-95a6-28f2a3a072a9.png">
+
+
+**AFter**
+
+![image](https://user-images.githubusercontent.com/125532497/227703577-5143bf81-5352-4495-9b74-262c46cc5512.png)
+
+![image](https://user-images.githubusercontent.com/125532497/227703592-f73563ed-1561-4439-882b-32151b6064e5.png)
+
+
+
