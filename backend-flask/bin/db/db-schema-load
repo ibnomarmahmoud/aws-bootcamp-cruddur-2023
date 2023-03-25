@@ -83,5 +83,5 @@ else
   URL=$CONNECTION_URL
 fi
 
-schema_path="$(realpath .)/db/schema.sql"
+schema_path="/workspace/aws-bootcamp-cruddur-2023/backend-flask/db/schema.sql"
 psql $URL cruddur < $schema_path

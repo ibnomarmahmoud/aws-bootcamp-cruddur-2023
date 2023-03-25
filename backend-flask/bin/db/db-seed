@@ -75,7 +75,7 @@ On_IPurple='\033[0;105m'  # Purple
 On_ICyan='\033[0;106m'    # Cyan
 On_IWhite='\033[0;107m'   # White
 
-seed_path="$(realpath .)/db/seed.sql"
+seed_path="/workspace/aws-bootcamp-cruddur-2023/backend-flask/db/seed.sql"
 
 echo $seed_path
 
