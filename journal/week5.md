@@ -46,7 +46,7 @@ Update Cognito User ID script as implemented successfully but I had to modify so
 
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-### Implement (Pattern A/B) Listing Messages in Message Group into Application
+### Implement various patterns for Listing/Creating Messages into Application
 
 The modifications in the backend and frontend were performed as instructed , backend was found to be trying to connect to production RDS so modified the docker compose file and started it again 
 
@@ -65,9 +65,47 @@ sql = db.template('users','uuid_from_cognito_user_id')
     })
 ```
 
-SO I updated the conversation to be between Mahmoud and Hema
+So I updated the conversation to be between Mahmoud and Hema
 
 ![image](https://user-images.githubusercontent.com/125532497/227707561-6ee85ebc-37a3-47ec-b099-6d708644943d.png)
 
+Still nothing was refleted on the backend and "Failed to Fetch MessageroupsPage.js" was reported 
+
+So tried to access the backend "api/message_groups" directly and TypeError: MessageGroups.run() got an unexpected keyword argument 'user_handle' appeared
+
+![image](https://user-images.githubusercontent.com/125532497/227719052-06d90be0-a6f6-4c1a-b739-2ff53f73bc62.png)
+
+Further troubleshooting led to db.py was not udpated correctly and finally "api/message_groups" reflected correct data 
+
+![image](https://user-images.githubusercontent.com/125532497/227722299-eac69311-3e9f-432d-95b4-a679ff0cdf36.png)
+
+![image](https://user-images.githubusercontent.com/125532497/227723694-bfdc562a-ff28-4a74-ae0d-7ba87f23f942.png)
+I can't have the data reflected on the fronetend URL post addng checkAuth function which needs to be checked furthr but I am running out of time !!
+
+```
+Access to fetch at 'https://4567-ibnomarmahm-awsbootcamp-uxcy2mjo4rb.ws-eu92.gitpod.io/api/message_groups' from origin 'https://3000-ibnomarmahm-awsbootcamp-uxcy2mjo4rb.ws-eu92.gitpod.io' has been blocked by CORS policy: Request header field authorization is not allowed by Access-Control-Allow-Headers in preflight response.
+```
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### DynamoDB Streams
+Production Table as created with enable streams on the table with 'new image' attributes included
+
+![image](https://user-images.githubusercontent.com/125532497/227724554-137ef8c7-4a72-4afd-aa9f-2a69762341c8.png)
+![image](https://user-images.githubusercontent.com/125532497/227724604-14b79c10-3bba-46bf-a686-86a0eaf33760.png)
+
+
+![image](https://user-images.githubusercontent.com/125532497/227724678-856bd0ad-b461-4398-bdee-4c4bf00db8a0.png)
+
+
+VPC Endpoint as created so that we have the DynamoDB accessible from other services 
+
+![image](https://user-images.githubusercontent.com/125532497/227724968-f66ffb81-aa8b-4b36-8655-fdeec511e4c6.png)
+
+
+Finally Lambda Function was created
+
+![image](https://user-images.githubusercontent.com/125532497/227725289-0f3234ab-ad0f-447b-9dd7-7c223223238b.png)
+
+I would test it once I fix the CORS error related to the frontend 
 
 
