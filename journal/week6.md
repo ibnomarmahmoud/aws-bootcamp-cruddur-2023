@@ -130,4 +130,16 @@ Access from LB and it is no more accessible directly with Task public IP provide
 
 ![image](https://user-images.githubusercontent.com/125532497/228955723-02b5a332-ecd6-4edc-a37e-249c0b0f3567.png)
 
+### FE ECR
+
+![image](https://user-images.githubusercontent.com/125532497/228968133-84cf7b1d-42cc-49e2-94d6-1d0eb1378a03.png)
+
+
+![image](https://user-images.githubusercontent.com/125532497/228968914-c51866ae-ef5b-40bb-ae93-25cc3c7b543d.png)
+
+![image](https://user-images.githubusercontent.com/125532497/228968966-8fc8c7ec-876e-4df0-9dda-34000b1797e2.png)
+
+![image](https://user-images.githubusercontent.com/125532497/228969122-f2334b9f-757b-47e6-ba9f-b24cf3ffecdd.png)
+
+
 
