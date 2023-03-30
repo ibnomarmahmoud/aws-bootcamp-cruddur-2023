@@ -118,3 +118,16 @@ https://stackoverflow.com/questions/53370256/aws-creation-failed-service-already
 ![image](https://user-images.githubusercontent.com/125532497/228906031-da36799d-535c-4384-8ae7-e93fa17f7466.png)
 
 
+### AFter Adding the ALB
+
+![image](https://user-images.githubusercontent.com/125532497/228954574-a63f4c69-04e4-4982-b05c-a83dcf7937b0.png)
+
+Healthy TG
+
+![image](https://user-images.githubusercontent.com/125532497/228955352-ff6d2a1f-7e57-4017-9f4b-78685bd65b3e.png)
+
+Access from LB and it is no more accessible directly with Task public IP provided by ENI
+
+![image](https://user-images.githubusercontent.com/125532497/228955723-02b5a332-ecd6-4edc-a37e-249c0b0f3567.png)
+
+
