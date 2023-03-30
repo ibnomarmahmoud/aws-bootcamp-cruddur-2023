@@ -85,3 +85,16 @@ Found it created since the Lamdbda function so just updated the retension
 
 From the definbition , choose the latest image , Service SG 
 
+### Problem Faced
+
+![image](https://user-images.githubusercontent.com/125532497/228872464-8a955e35-5bd9-4640-ac74-5f524af62521.png)
+
+```
+https://stackoverflow.com/questions/53370256/aws-creation-failed-service-already-exists-service-awsservicediscovery-stat
+```
+
+![image](https://user-images.githubusercontent.com/125532497/228873734-b2bfbb7f-c1b8-47b2-b809-51541e83cfca.png)
+
+![image](https://user-images.githubusercontent.com/125532497/228874053-84a38ad1-9987-443a-9b13-0235c634be6b.png)
+
+
