@@ -40,6 +40,21 @@ Tested the connection from the local backend container before pushing to ECR
 
 <img width="967" alt="image" src="https://user-images.githubusercontent.com/125532497/228816045-136b19d6-4eaa-4755-a201-5d62a96482be.png">
 
+### Backend Python reporisrory creation 
+
+![image](https://user-images.githubusercontent.com/125532497/228834470-7258ba6e-9c05-4a94-aea7-9b32e3a5c80a.png)
+
+How to connect to ECR repository for pulling the images
+
+<img width="493" alt="image" src="https://user-images.githubusercontent.com/125532497/228835642-f37e40f9-6444-4fce-b396-e36c7248eec8.png">
+
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/125532497/228836717-598239bc-2de4-4f69-935a-eb5f9b65171f.png">
+
+Python Image was pulled from Docker hub , tagged and pushed to the private repo after login to ECR 
+<img width="750" alt="image" src="https://user-images.githubusercontent.com/125532497/228837353-045f33e3-fafa-4176-8ae9-d3de9d7de048.png">
+
+<img width="794" alt="image" src="https://user-images.githubusercontent.com/125532497/228837619-6c432735-c4ba-4c31-bfab-be3eb8680d08.png">
+
 
 
 
