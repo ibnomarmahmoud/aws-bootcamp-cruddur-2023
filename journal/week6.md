@@ -102,4 +102,19 @@ https://stackoverflow.com/questions/53370256/aws-creation-failed-service-already
 
 ![image](https://user-images.githubusercontent.com/125532497/228876023-f044d524-8786-4a73-8d05-3e6b5004498b.png)
 
+##  Finaly it stabilized
+
+![image](https://user-images.githubusercontent.com/125532497/228903050-234110a3-ae24-4c48-a09c-52c5b81edc91.png)
+
+![image](https://user-images.githubusercontent.com/125532497/228903439-c2b345ca-2d69-4226-b854-74191c1b8535.png)
+
+
+## Backend Accessed after allowing port 4567  for the SG
+
+![image](https://user-images.githubusercontent.com/125532497/228905212-a9c4cb35-db8d-4f4a-bbe1-057139631187.png)
+
+![image](https://user-images.githubusercontent.com/125532497/228905712-8b2ebfa5-aad0-4a4f-bf77-6fe47518e205.png)
+
+![image](https://user-images.githubusercontent.com/125532497/228906031-da36799d-535c-4384-8ae7-e93fa17f7466.png)
+
 
