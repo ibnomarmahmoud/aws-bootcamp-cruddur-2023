@@ -98,3 +98,6 @@ https://stackoverflow.com/questions/53370256/aws-creation-failed-service-already
 ![image](https://user-images.githubusercontent.com/125532497/228874053-84a38ad1-9987-443a-9b13-0235c634be6b.png)
 
 
+## Then Failed due to health checks
+
+![image](https://user-images.githubusercontent.com/125532497/228876023-f044d524-8786-4a73-8d05-3e6b5004498b.png)
