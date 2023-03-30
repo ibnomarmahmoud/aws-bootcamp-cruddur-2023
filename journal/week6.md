@@ -5,6 +5,12 @@
 ![image](https://user-images.githubusercontent.com/125532497/228462511-16d116a8-4aa4-4a94-bef2-4946f11682f5.png)
 
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Pending Tasks / Snaglist from previous weeks 
+
 - [x] Check that Backend is working fine 
 - [ ] Check that frontend is working fine 
 - [ ] Make sure that scripts are updated  :tada:
+- [ ] Fix the AWS CLI in gitpod.yaml   :tada:
+
+
