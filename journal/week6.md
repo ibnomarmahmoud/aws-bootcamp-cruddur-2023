@@ -57,6 +57,44 @@ Python Image was pulled from Docker hub , tagged and pushed to the private repo 
 
 
 
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/125532497/228840353-320c4ea6-e2e6-4d42-b5f3-79c4f61ba091.png">
 
+<img width="989" alt="image" src="https://user-images.githubusercontent.com/125532497/228840526-bbe26736-3c8f-4190-88aa-fe8f2f5c20b0.png">
+
+### Have Cloudwatch Logging group created before task definition 
+
+Found it created since the Lamdbda function so just updated the retension 
+
+![image](https://user-images.githubusercontent.com/125532497/228845152-4c848415-749d-4103-9a50-e91080c43877.png)
+
+## Backend Task desfinition , we are passing sensitive data to SSM instead of the Secret Manager to avoid paying money 
+
+![image](https://user-images.githubusercontent.com/125532497/228847608-06db3dc2-8253-4617-bcf2-80a097c582d2.png)
+
+## Create Backend task definition 
+
+![image](https://user-images.githubusercontent.com/125532497/228859364-b3a48163-f1ff-42d2-8c64-42a00db99619.png)
+
+
+
+### Update RDS SG to have Postgres Port be accessed from Service SG only , previuslly it was from our workstation only 
+
+![image](https://user-images.githubusercontent.com/125532497/228863367-54ad1f70-73cd-4ea8-9966-13f34bf24859.png)
+
+## Create Service 
+
+From the definbition , choose the latest image , Service SG 
+
+### Problem Faced
+
+![image](https://user-images.githubusercontent.com/125532497/228872464-8a955e35-5bd9-4640-ac74-5f524af62521.png)
+
+```
+https://stackoverflow.com/questions/53370256/aws-creation-failed-service-already-exists-service-awsservicediscovery-stat
+```
+
+![image](https://user-images.githubusercontent.com/125532497/228873734-b2bfbb7f-c1b8-47b2-b809-51541e83cfca.png)
+
+![image](https://user-images.githubusercontent.com/125532497/228874053-84a38ad1-9987-443a-9b13-0235c634be6b.png)
 
 
