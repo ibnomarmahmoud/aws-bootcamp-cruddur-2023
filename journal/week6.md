@@ -141,5 +141,8 @@ Access from LB and it is no more accessible directly with Task public IP provide
 
 ![image](https://user-images.githubusercontent.com/125532497/228969122-f2334b9f-757b-47e6-ba9f-b24cf3ffecdd.png)
 
+## Domain Registration
+
+![image](https://user-images.githubusercontent.com/125532497/229273016-8d1d0fdf-8de3-41ca-87a2-62e21121a4f6.png)
 
 
