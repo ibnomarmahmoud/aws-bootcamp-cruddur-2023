@@ -130,4 +130,32 @@ Access from LB and it is no more accessible directly with Task public IP provide
 
 ![image](https://user-images.githubusercontent.com/125532497/228955723-02b5a332-ecd6-4edc-a37e-249c0b0f3567.png)
 
+### FE ECR
 
+![image](https://user-images.githubusercontent.com/125532497/228968133-84cf7b1d-42cc-49e2-94d6-1d0eb1378a03.png)
+
+
+![image](https://user-images.githubusercontent.com/125532497/228968914-c51866ae-ef5b-40bb-ae93-25cc3c7b543d.png)
+
+![image](https://user-images.githubusercontent.com/125532497/228968966-8fc8c7ec-876e-4df0-9dda-34000b1797e2.png)
+
+![image](https://user-images.githubusercontent.com/125532497/228969122-f2334b9f-757b-47e6-ba9f-b24cf3ffecdd.png)
+
+## Domain Registration
+
+![image](https://user-images.githubusercontent.com/125532497/229273016-8d1d0fdf-8de3-41ca-87a2-62e21121a4f6.png)
+
+![image](https://user-images.githubusercontent.com/125532497/229277617-5e251706-1a1c-49f8-98d6-2d628a46c643.png)
+![image](https://user-images.githubusercontent.com/125532497/229277631-11e83726-3b3d-4dec-9177-1ee149ad0645.png)
+
+![image](https://user-images.githubusercontent.com/125532497/229278032-6db8a929-c92f-4127-bf15-3b070f36bdad.png)
+
+![image](https://user-images.githubusercontent.com/125532497/229278098-15f71061-7420-47fe-95b0-e29db489c8fe.png)
+
+![image](https://user-images.githubusercontent.com/125532497/229278852-341a7d49-b66c-45b8-87c9-7329f6221711.png)
+
+
+![image](https://user-images.githubusercontent.com/125532497/229284494-0d5750ad-3540-4329-ae40-e7fd029a8324.png)
+
+
+![image](https://user-images.githubusercontent.com/125532497/229286964-c18fddf3-b363-4705-a677-ed64c0ffe382.png)
