@@ -159,3 +159,8 @@ Access from LB and it is no more accessible directly with Task public IP provide
 
 
 ![image](https://user-images.githubusercontent.com/125532497/229286964-c18fddf3-b363-4705-a677-ed64c0ffe382.png)
+
+![image](https://user-images.githubusercontent.com/125532497/229287554-0f0ea760-7555-44e4-86a9-31509003e1f6.png)
+![image](https://user-images.githubusercontent.com/125532497/229287580-44949f16-b10e-4bc0-86ec-607563a3afeb.png)
+
+
