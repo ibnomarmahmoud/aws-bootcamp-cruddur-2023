@@ -136,7 +136,7 @@ Route 53 hosted zone was created for my domain and I had to update the NS in GoD
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Create an SSL cerificate via ACM
-I had some issues in issuing the SSL certificate since its status was kept "Pending verifications" till I craeted a record for it in Route 53 afterwrads it was verified but I didn't find it while creating the rule in ALB and it was found to be craeted in a different region so I deleted it and re-created a new one 
+I had some issues in issuing the SSL certificate since its status was kept "Pending verifications" till I created a record for it in Route 53 afterwards it was verified but I didn't find it while creating the rule in ALB and it was found to be created in a different region so I deleted it and re-created a new one 
 ![image](https://user-images.githubusercontent.com/125532497/229284494-0d5750ad-3540-4329-ae40-e7fd029a8324.png)
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
@@ -152,8 +152,26 @@ And both backend and frontend were accessed directly and from my mobile phone as
 ![image](https://user-images.githubusercontent.com/125532497/229287580-44949f16-b10e-4bc0-86ec-607563a3afeb.png)
 
 
-
 Even I tried the Cognito integration and craeted new user from the web version of the application 
 
 ![image](https://user-images.githubusercontent.com/125532497/229288150-9ed502d6-8ba5-49b7-843a-453534421da7.png)
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Secure Flask by not running in debug mode
+
+A new dockerfile was created with "--no-debugger" and "--no-reload" options as per the instructions but building the new image and updating the task was postponed till fiixng some issues in app.py since week 5
+
+And for the sake of ease of deloying the new image , the below script was created 
+
+```
+#! /usr/bin/bash
+
+aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin "$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com"
+export ECR_BACKEND_FLASK_URL="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/backend-flask"
+echo $ECR_BACKEND_FLASK_URL
+cd /workspace/aws-bootcamp-cruddur-2023/backend-flask
+docker build -t backend-flask .
+docker push $ECR_BACKEND_FLASK_URL:latest
+cd ..
+aws ecs register-task-definition --cli-input-json file://aws/task-definitions/backend-flask.json
+```
