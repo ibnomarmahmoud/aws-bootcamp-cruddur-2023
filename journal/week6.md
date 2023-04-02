@@ -137,7 +137,9 @@ Route 53 hosted zone was created for my domain and I had to update the NS in GoD
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Create an SSL cerificate via ACM
 I had some issues in issuing the SSL certificate since its status was kept "Pending verifications" till I craeted a record for it in Route 53 afterwrads it was verified but I didn't find it while creating the rule in ALB and it was found to be craeted in a different region so I deleted it and re-created a new one 
+![image](https://user-images.githubusercontent.com/125532497/229284494-0d5750ad-3540-4329-ae40-e7fd029a8324.png)
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Setup a record set for naked domain to point to frontend-react-js and api subdomain to point to the backend-flask
 
 The records were created in Route 53 as shwon below
@@ -148,10 +150,10 @@ And both backend and frontend were accessed directly and from my mobile phone as
 
 ![image](https://user-images.githubusercontent.com/125532497/229287554-0f0ea760-7555-44e4-86a9-31509003e1f6.png)
 ![image](https://user-images.githubusercontent.com/125532497/229287580-44949f16-b10e-4bc0-86ec-607563a3afeb.png)
-![image](https://user-images.githubusercontent.com/125532497/229284494-0d5750ad-3540-4329-ae40-e7fd029a8324.png)
 
 
-Even I tried the Cognito integartion and craeted new user from the web version of the application 
+
+Even I tried the Cognito integration and craeted new user from the web version of the application 
 
 ![image](https://user-images.githubusercontent.com/125532497/229288150-9ed502d6-8ba5-49b7-843a-453534421da7.png)
 
