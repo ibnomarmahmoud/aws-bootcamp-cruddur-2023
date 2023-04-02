@@ -46,6 +46,8 @@ The namespace was created and the ECS cluster was provisioned
 The repo was created 
 ![image](https://user-images.githubusercontent.com/125532497/228834470-7258ba6e-9c05-4a94-aea7-9b32e3a5c80a.png)
 The Python image was pushed to ECR , initially the base image was pulled from Docker hub , tagged and pushed back to the private repo after login to ECR 
+
+
 <img width="710" alt="image" src="https://user-images.githubusercontent.com/125532497/228836717-598239bc-2de4-4f69-935a-eb5f9b65171f.png">
 <img width="750" alt="image" src="https://user-images.githubusercontent.com/125532497/228837353-045f33e3-fafa-4176-8ae9-d3de9d7de048.png">
 <img width="794" alt="image" src="https://user-images.githubusercontent.com/125532497/228837619-6c432735-c4ba-4c31-bfab-be3eb8680d08.png">
@@ -62,14 +64,16 @@ Found it created since the Lamdbda function so just updated the retension
 ### Passing the sensitive data to SSM instead of the Secret Manager to avoid paying money before the backend task definition 
 ![image](https://user-images.githubusercontent.com/125532497/228847608-06db3dc2-8253-4617-bcf2-80a097c582d2.png)
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Creating the Backend task definition 
 
 After all previous step , I have created the backend task 
 ![image](https://user-images.githubusercontent.com/125532497/228859364-b3a48163-f1ff-42d2-8c64-42a00db99619.png)
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ## Deploy Backend Flask app as a service to Fargate
 
-The backend serive was running a task was created but it kept on failing due to the roles and the missing health check script as previouslly mentioned 
+The task was created but it kept on failing due to the roles and the missing health check script as previouslly mentioned 
 
 ![image](https://user-images.githubusercontent.com/125532497/228873734-b2bfbb7f-c1b8-47b2-b809-51541e83cfca.png)
 
@@ -83,52 +87,51 @@ But after fixing the roles and rebuilding with the health-checks , finally it st
 It shown here that it kept starting and stopping 
 ![image](https://user-images.githubusercontent.com/125532497/228903439-c2b345ca-2d69-4226-b854-74191c1b8535.png)
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Create ECR repo and push image for fronted-react-js
 
 The instructions were followed and the image was pushed to ECR
 
 ![image](https://user-images.githubusercontent.com/125532497/229377231-83d65bdf-697e-4380-b503-e4301e04b312.png)
 
-
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Deploy Frontend React JS app as a service to Fargate
 
 The Service was deployed successfully but this was done after updating the definitions to include the Load balancer for both backend and frontend 
 
 ![image](https://user-images.githubusercontent.com/125532497/228968914-c51866ae-ef5b-40bb-ae93-25cc3c7b543d.png)
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Provision and configure Application Load Balancer along with target groups
+
+Both Target groups were created and the tasks were registered successfully and showed healthy status 
 ![image](https://user-images.githubusercontent.com/125532497/228968966-8fc8c7ec-876e-4df0-9dda-34000b1797e2.png)
+
+Then I tested accessing the frontend from the loadbalancer endpoint 
 
 ![image](https://user-images.githubusercontent.com/125532497/228969122-f2334b9f-757b-47e6-ba9f-b24cf3ffecdd.png)
 
-## Backend Accessed after allowing port 4567  for the SG
+And for the Backend , it was accessed successfully after allowing port 4567 with Task public IP provided by ENI
 
 ![image](https://user-images.githubusercontent.com/125532497/228905212-a9c4cb35-db8d-4f4a-bbe1-057139631187.png)
 
 ![image](https://user-images.githubusercontent.com/125532497/228905712-8b2ebfa5-aad0-4a4f-bf77-6fe47518e205.png)
 
-![image](https://user-images.githubusercontent.com/125532497/228906031-da36799d-535c-4384-8ae7-e93fa17f7466.png)
-
-
-### AFter Adding the ALB
-
-![image](https://user-images.githubusercontent.com/125532497/228954574-a63f4c69-04e4-4982-b05c-a83dcf7937b0.png)
-
-Healthy TG
-
-![image](https://user-images.githubusercontent.com/125532497/228955352-ff6d2a1f-7e57-4017-9f4b-78685bd65b3e.png)
-
-Access from LB and it is no more accessible directly with Task public IP provided by ENI
+Then after adding the ALB and application Load Balancer , it is now accessible 
 
 ![image](https://user-images.githubusercontent.com/125532497/228955723-02b5a332-ecd6-4edc-a37e-249c0b0f3567.png)
 
-
-
-## Domain Registration
-
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Domain Registration
+I didn't create it previouslly since I didn't know earlier whether it would be covered by the AWS Credits or not and what would be its best name so I created it from GoDaddy this week ( eg-cruddur.online )
 ![image](https://user-images.githubusercontent.com/125532497/229273016-8d1d0fdf-8de3-41ca-87a2-62e21121a4f6.png)
 
-![image](https://user-images.githubusercontent.com/125532497/229277617-5e251706-1a1c-49f8-98d6-2d628a46c643.png)
+### Manage your domain useing Route53 via hosted zone
+
+Route 53 hosted zone was created for my domain and I had to update the NS in GoDaddy
 ![image](https://user-images.githubusercontent.com/125532497/229277631-11e83726-3b3d-4dec-9177-1ee149ad0645.png)
+![image](https://user-images.githubusercontent.com/125532497/229277617-5e251706-1a1c-49f8-98d6-2d628a46c643.png)
+
 
 ![image](https://user-images.githubusercontent.com/125532497/229278032-6db8a929-c92f-4127-bf15-3b070f36bdad.png)
 
