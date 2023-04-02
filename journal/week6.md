@@ -175,3 +175,19 @@ docker push $ECR_BACKEND_FLASK_URL:latest
 cd ..
 aws ecs register-task-definition --cli-input-json file://aws/task-definitions/backend-flask.json
 ```
+
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Improvements and Automation 
+
+The task definition files had been updated to include another container for X-ray and from the AWS console , Cluster was updated to turn on Container Insights
+BIN directory was created under the workspace directly with the ruby scripts to genearte the env files for both backend and frontend 
+
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Pending Tasks / Snaglist from previous weeks 
+
+- [ ] Still have an issue with JWT 
+- [ ] Still geting CORS error in frontend and for which all frontend screenshots are not showing any content 
+- [ ] Verify the Messaging and DynamoDB  post fixing the CORS issue
+- [X] Check if AWSCLI and PoSTgres are working after re-launching the workspace 
