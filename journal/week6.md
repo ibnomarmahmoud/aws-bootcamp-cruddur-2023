@@ -126,27 +126,32 @@ Then after adding the ALB and application Load Balancer , it is now accessible
 I didn't create it previouslly since I didn't know earlier whether it would be covered by the AWS Credits or not and what would be its best name so I created it from GoDaddy this week ( eg-cruddur.online )
 ![image](https://user-images.githubusercontent.com/125532497/229273016-8d1d0fdf-8de3-41ca-87a2-62e21121a4f6.png)
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Manage your domain useing Route53 via hosted zone
 
 Route 53 hosted zone was created for my domain and I had to update the NS in GoDaddy
 ![image](https://user-images.githubusercontent.com/125532497/229277631-11e83726-3b3d-4dec-9177-1ee149ad0645.png)
 ![image](https://user-images.githubusercontent.com/125532497/229277617-5e251706-1a1c-49f8-98d6-2d628a46c643.png)
-
-
 ![image](https://user-images.githubusercontent.com/125532497/229278032-6db8a929-c92f-4127-bf15-3b070f36bdad.png)
 
-![image](https://user-images.githubusercontent.com/125532497/229278098-15f71061-7420-47fe-95b0-e29db489c8fe.png)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Create an SSL cerificate via ACM
+I had some issues in issuing the SSL certificate since its status was kept "Pending verifications" till I craeted a record for it in Route 53 afterwrads it was verified but I didn't find it while creating the rule in ALB and it was found to be craeted in a different region so I deleted it and re-created a new one 
 
-![image](https://user-images.githubusercontent.com/125532497/229278852-341a7d49-b66c-45b8-87c9-7329f6221711.png)
+### Setup a record set for naked domain to point to frontend-react-js and api subdomain to point to the backend-flask
 
+The records were created in Route 53 as shwon below
 
-![image](https://user-images.githubusercontent.com/125532497/229284494-0d5750ad-3540-4329-ae40-e7fd029a8324.png)
+![image](https://user-images.githubusercontent.com/125532497/229378965-9a0d3606-fea2-4c68-87e8-3960c2d0f908.png)
 
-
-![image](https://user-images.githubusercontent.com/125532497/229286964-c18fddf3-b363-4705-a677-ed64c0ffe382.png)
+And both backend and frontend were accessed directly and from my mobile phone as well 
 
 ![image](https://user-images.githubusercontent.com/125532497/229287554-0f0ea760-7555-44e4-86a9-31509003e1f6.png)
 ![image](https://user-images.githubusercontent.com/125532497/229287580-44949f16-b10e-4bc0-86ec-607563a3afeb.png)
+![image](https://user-images.githubusercontent.com/125532497/229284494-0d5750ad-3540-4329-ae40-e7fd029a8324.png)
+
+
+Even I tried the Cognito integartion and craeted new user from the web version of the application 
 
 ![image](https://user-images.githubusercontent.com/125532497/229288150-9ed502d6-8ba5-49b7-843a-453534421da7.png)
 
