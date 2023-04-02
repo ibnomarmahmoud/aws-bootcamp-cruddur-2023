@@ -1,5 +1,8 @@
 # Week 6 — Deploying Containers
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Preparations 
 
+Post the Live stream and after Andrew declared that the week may have some spendings since Fargate is not covered in the Free Tier , I suddenly received a mail from AWS because of the new account and a submit request that I am building an application like Twitter as per Andrew's bootcamp and I have received 300$ credits :)
 ![image](https://user-images.githubusercontent.com/125532497/228462311-45cca416-47a3-4195-af2a-4254fab65c49.png)
 
 ![image](https://user-images.githubusercontent.com/125532497/228462511-16d116a8-4aa4-4a94-bef2-4946f11682f5.png)
