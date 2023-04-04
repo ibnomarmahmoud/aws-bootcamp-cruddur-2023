@@ -176,13 +176,24 @@ cd ..
 aws ecs register-task-definition --cli-input-json file://aws/task-definitions/backend-flask.json
 ```
 
-
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Improvements and Automation 
 
 The task definition files had been updated to include another container for X-ray and from the AWS console , Cluster was updated to turn on Container Insights
 BIN directory was created under the workspace directly with the ruby scripts to genearte the env files for both backend and frontend 
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Extras
+
+ECR Images had been checked for vulenabilities as per Ashsish's security recommendations 
+
+![image](https://user-images.githubusercontent.com/125532497/229930427-a7c235e9-165a-4b45-bca9-db2bc42a6dc7.png)
+
+
+Lucid chart was updated by more details like the SG and ALB DNS 
+```
+https://lucid.app/lucidchart/5d7933c5-65b9-4675-86bf-6bcb821fa8ce/edit?viewport_loc=-59%2C60%2C2219%2C1108%2C2R0LdDM-sQ8O&invitationId=inv_7d168d1b-4c31-48e6-8231-098e19ee221c
+```
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Pending Tasks / Snaglist from previous weeks 
