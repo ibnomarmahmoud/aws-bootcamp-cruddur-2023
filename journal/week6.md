@@ -192,7 +192,7 @@ ECR Images had been checked for vulenabilities as per Ashsish's security recomme
 
 Lucid chart was updated by more details like the SG and ALB DNS 
 
-[Lucid Updated Chart ]([https://www.google.com](https://lucid.app/lucidchart/5d7933c5-65b9-4675-86bf-6bcb821fa8ce/edit?viewport_loc=-59%2C60%2C2219%2C1108%2C2R0LdDM-sQ8O&invitationId=inv_7d168d1b-4c31-48e6-8231-098e19ee221c)
+[Lucid Updated Chart ](https://lucid.app/lucidchart/5d7933c5-65b9-4675-86bf-6bcb821fa8ce/edit?viewport_loc=-59%2C60%2C2219%2C1108%2C2R0LdDM-sQ8O&invitationId=inv_7d168d1b-4c31-48e6-8231-098e19ee221c)
 
 ![image](https://user-images.githubusercontent.com/125532497/229930837-368dda4a-249e-4934-9bfb-df906a8c79c3.png)
 
