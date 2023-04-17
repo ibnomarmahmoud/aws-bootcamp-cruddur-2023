@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      docker: 19
+      docker: 3
     commands:
       - echo "cd into $CODEBUILD_SRC_DIR"
       - cd $CODEBUILD_SRC_DIR
@@ -28,19 +28,6 @@ env:
     CONTAINER_NAME: backend-flask
     IMAGE_URL: 868130657006.dkr.ecr.us-west-2.amazonaws.com
     REPO_NAME: backend-flask:latest
-    AWS_COGNITO_USER_POOL_CLIENT_ID: 25bndmeu9e2q61fq696eev3t10
-    AWS_COGNITO_USER_POOL_ID: us-west-2_UaMtMOXPr
-    AWS_DEFAULT_REGION: us-west-2
-    BACKEND_URL: api.eg-cruddur.online
-    FRONTEND_URL: eg-cruddur.online
-    OTEL_EXPORTER_OTLP_ENDPOINT: https://api.honeycomb.io
-    OTEL_SERVICE_NAME: backend-flask
-  parameter-store:
-    AWS_ACCESS_KEY_ID: arn:aws:ssm:us-west-2:868130657006:parameter/cruddur/backend-flask/AWS_ACCESS_KEY_ID
-    AWS_SECRET_ACCESS_KEY: arn:aws:ssm:us-west-2:868130657006:parameter/cruddur/backend-flask/AWS_SECRET_ACCESS_KEY
-    CONNECTION_URL: arn:aws:ssm:us-west-2:868130657006:parameter/cruddur/backend-flask/CONNECTION_URL
-    OTEL_EXPORTER_OTLP_HEADERS: arn:aws:ssm:us-west-2:868130657006:parameter/cruddur/backend-flask/OTEL_EXPORTER_OTLP_HEADERS
-    ROLLBAR_ACCESS_TOKEN: arn:aws:ssm:us-west-2:868130657006:parameter/cruddur/backend-flask/ROLLBAR_ACCESS_TOKEN
 
 artifacts:
   files:
