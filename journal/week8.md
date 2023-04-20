@@ -43,3 +43,17 @@ The background and Avatar were reflected from the S3
 
 ![image](https://user-images.githubusercontent.com/125532497/233385822-e254c73b-76cc-4894-8e29-cecd45bf0063.png)
 
+Also upon Crudduring , the count had been incremented 
+
+![image](https://user-images.githubusercontent.com/125532497/233389011-1a578071-e358-4fa0-a460-9482942b33cb.png)
+
+One issue faced , It was not showing any info related to the User as backend was complaining about the non existing "bio" field in users table 
+
+```
+psycopg.errors.UndefinedColumn: column users.bio does not exist
+LINE 10:       users.bio,
+```
+
+Before proceeding further in the video and the use of the migration script to add the Bio column , I have modified the schema to include this bio field and it worked as shown above 
+
+
