@@ -17,6 +17,7 @@ CREATE TABLE public.users (
   handle text NOT NULL,
   email text NOT NULL,
   cognito_user_id text NOT NULL,
+  bio text NULL,
   created_at TIMESTAMP default current_timestamp NOT NULL
 );
 
