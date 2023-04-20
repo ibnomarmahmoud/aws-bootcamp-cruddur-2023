@@ -54,6 +54,6 @@ psycopg.errors.UndefinedColumn: column users.bio does not exist
 LINE 10:       users.bio,
 ```
 
-Before proceeding further in the video and the use of the migration script to add the Bio column , I have modified the schema to include this bio field and it worked as shown above 
+Before proceeding further in the video and the use of the migration script to add the Bio column , I have modified the schema to include this bio field and it worked as shown above but migration scripts had been updated anyway and the setup script was modified as well
 
 
