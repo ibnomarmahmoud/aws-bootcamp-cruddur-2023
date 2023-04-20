@@ -5,7 +5,8 @@ vscode:
     - ms-azuretools.vscode-docker
     - cweijan.vscode-postgresql-client2
     - akhail.save-typing
-    - amazonwebservices.aws-toolkit-vscode    
+    - amazonwebservices.aws-toolkit-vscode
+    - rangav.vscode-thunder-client    
 tasks:
   - name: AWS CLI
     env:
