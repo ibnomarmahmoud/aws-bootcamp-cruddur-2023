@@ -57,4 +57,10 @@ It is shown below that the built had been done successfully
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/125532497/233839545-4ca2e1aa-8888-4b89-83dc-20ce9f0aea0e.png">
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Configure CodePipeLine
+
+Once the Codebuild issue had been fixed , I resumed the pipeline and its 3 stages had been completed post changing the input artifacts into image definition 
+
+![image](https://user-images.githubusercontent.com/125532497/233841364-4b7f05a8-2e5a-4922-b751-8b94b28c0199.png)
 
