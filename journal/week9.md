@@ -53,3 +53,8 @@ It is shown below that the built had been done successfully
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/125532497/233839468-90f9f4ee-65f4-40b9-a787-67b9ab48a181.png">
 
+**ECR Image uploaded**
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/125532497/233839545-4ca2e1aa-8888-4b89-83dc-20ce9f0aea0e.png">
+
+
