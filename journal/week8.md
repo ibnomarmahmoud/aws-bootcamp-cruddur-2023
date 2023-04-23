@@ -57,6 +57,17 @@ LINE 10:       users.bio,
 Before proceeding further in the video and the use of the migration script to add the Bio column , I have modified the schema to include this bio field and it worked as shown above but migration scripts had been updated anyway and the setup script was modified as well
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-###Implement Users Profile Form
+### Implement Users Profile Form
+
+**Add the Picture from the other laptop
+
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Presigned URL generation via Ruby Lambda / HTTP API Gateway with Lambda Authorizer / Create JWT Lambda Layer 
+
+
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Render Avatars in App via CloudFront 
 
 
