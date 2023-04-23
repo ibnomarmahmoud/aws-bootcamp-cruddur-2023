@@ -64,3 +64,19 @@ Once the Codebuild issue had been fixed , I resumed the pipeline and its 3 stage
 
 ![image](https://user-images.githubusercontent.com/125532497/233841364-4b7f05a8-2e5a-4922-b751-8b94b28c0199.png)
 
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+### Status of Pending Tasks / Snaglist 
+
+- [X] Still have an issue with JWT 
+- [X] Still geting CORS error in frontend and for which all frontend screenshots are not showing any content 
+- [ ] Verify the Messaging and DynamoDB  post fixing the CORS issue
+- [X] Check if AWSCLI and PoSTgres are working after re-launching the workspace 
+
+### New Extras
+
+- [ ] Build a separate pipeline for the Frontend deployment
+- [ ] Update the Lucid Chat with CloudFront/ Pipeline
+- [] Attend a crash course for Yaml to be prepared for the coming 2 weeks in CFN
+
+
