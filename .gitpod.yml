@@ -6,7 +6,8 @@ vscode:
     - cweijan.vscode-postgresql-client2
     - akhail.save-typing
     - amazonwebservices.aws-toolkit-vscode
-    - rangav.vscode-thunder-client    
+    - rangav.vscode-thunder-client
+    - github.copilot    
 tasks:
   - name: cfn
     before: |
