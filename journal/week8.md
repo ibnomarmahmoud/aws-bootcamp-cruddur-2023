@@ -59,7 +59,9 @@ Before proceeding further in the video and the use of the migration script to ad
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ### Implement Users Profile Form
 
-**Add the Picture from the other laptop
+The Dispaly Name and Bio had been modified successfully via the "Edit Profile" button 
+
+![image](https://user-images.githubusercontent.com/125532497/234564566-05ee3a58-d92b-44db-bb44-d31de5495a36.png)
 
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
