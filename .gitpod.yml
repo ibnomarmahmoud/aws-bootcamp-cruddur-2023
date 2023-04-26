@@ -33,10 +33,12 @@ tasks:
       sudo apt install -y postgresql-client-13 libpq-dev
   - name: NPM install
     before: |
+      ruby $THEIA_WORKSPACE_ROOT/bin/frontend/generate-env
       cd /workspace/aws-bootcamp-cruddur-2023/frontend-react-js
       npm install --save @opentelemetry/api @opentelemetry/sdk-trace-web @opentelemetry/exporter-trace-otlp-http @opentelemetry/context-zone
   - name: Install Python requirements 
     before: |
+      ruby $THEIA_WORKSPACE_ROOT/bin/backend/generate-env
       cd /workspace/aws-bootcamp-cruddur-2023/backend-flask
       pip install -r requirements.txt
   - name: Install Sessions Manager
